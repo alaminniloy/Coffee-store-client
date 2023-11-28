@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
+* {
+	font-family: "Rancho", cursive;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
