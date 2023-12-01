@@ -23,7 +23,7 @@ const AddCoffee = () => {
 		};
 		console.log(newCoffee);
 		// form.reset();
-		fetch("http://localhost:5000/coffee", {
+		fetch("https://coffee-store-server-eight-henna.vercel.app/coffee", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
